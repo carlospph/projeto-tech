@@ -1,0 +1,76 @@
+#banners {
+    background-color: #f2f2f2;
+    padding: 11rem 0 3em 0;
+
+        @media (max-width: 769px){
+            padding-top: 9rem;
+        }
+}
+
+.banner__container--text,
+.banner__container--image {
+    width: 50%;
+
+    @media (max-width: 769px) {
+        width: 100%;
+    }
+}
+
+.title__oferta{
+    color: orange;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.banner__title{
+    font-size: 45px;
+    line-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.banner__container--image {
+    width: 50%;
+
+         
+    @media (max-width: 769px){
+        width: 100%;
+    }
+ }
+
+.banner__image {
+    width: 100%;
+    border-radius: 110px 0 80px 0;
+
+    @media (max-width: 769px){
+        border-radius: 16px;
+    }
+
+}
+
+
+.swiper {
+    max-width: 992px;
+    margin: 0 auto;
+
+        @media (max-width: 769px){
+            max-width: 540px;
+        }
+}
+
+.swiper-slide {
+    padding: 0 1rem;
+}
+
+.banner-1 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+        @media (max-width: 769px){
+            display: flex;
+            flex-direction: column;
+        }
+
+
+}

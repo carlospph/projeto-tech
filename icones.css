@@ -1,0 +1,110 @@
+:root {
+    --color-icone: #8F8F8F;
+    --color-title-card--hidden:#474747;
+
+    --font-14: .9rem;
+}
+
+.colletion__container--icones {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+     overflow-x: auto;
+    padding-bottom: 1rem;
+
+
+    @media (max-width: 769px){
+        padding: 0 60px 0 20%;
+        padding-bottom: 1rem;
+
+            @media (max-width: 376px){
+                padding-left: 33%;
+            }
+    }
+}
+
+
+.colletion__card--hidden{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.colletion__card--hidden h5{
+    font-size: var(--font-14);
+    color: var(--color-title-card--hidden);
+    letter-spacing: .75px;
+ }
+
+
+.colletion__icone {
+    background-color: white;
+    border-radius: 60%;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.camisas {
+    background-image: url('icone--camiseta--static.png');
+}
+
+span.camisas:hover {
+    background-image: url('icone--camiseta--hover.png');
+}
+
+span.calcas {
+    background-image: url('icone--calca--static.png');
+}
+
+span.calcas:hover {
+    background-image: url('icone--calca--hover.png');
+    /* Adicione a imagem de hover para calças */
+}
+
+span.bones {
+    background-image: url('icone-bone--static.png');
+}
+
+span.bones:hover {
+    background-image: url('icone-bone--hover.png');
+    /* Adicione a imagem de hover para bonés */
+}
+
+span.fones {
+    background-image: url('icone-fone--static.png');
+}
+
+span.fones:hover {
+    background-image: url('icone-fone--hover.png');
+    /* Adicione a imagem de hover para fones */
+}
+
+span.tenis {
+    background-image: url('icone-tenis--static.png');
+}
+
+span.tenis:hover {
+    background-image: url('icone-tenis--hover.png');
+    /* Adicione a imagem de hover para tênis */
+}
+
+
+.global__icones {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.icone__bone--large{
+    width: 70%;
+    height: 70%; 
+}

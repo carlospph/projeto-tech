@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonte google  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+    <!-- carrossel swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- css custom  -->
+    <link rel="stylesheet" href="styles.css">
+    <title> CN::Digital Store</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__tools">
+                <li class="container-icone-ham">
+                    <i class="fa-solid fa-bars" id="btnMenu"></i>
+                </li>
+                <li> <a class="logo" href="">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Digital </span><span clas="logo-hidden-mobile">Store</span>
+                    </a></li>
+                <li class="form__container">
+                    <form class="form-input-search">
+                        <input type="text" name="" id="" placeholder="Pesquisar produtos">
+                        <i class="fa-solid fa-search" id="btnAbrirCampoSearch"></i>
+                    </form>
+                </li>
+                <li class="container-links">
+                    <a href="" class="link-cadastre-se">Cadastre-se</a>
+                    <a href="" class="link-btn">entrar</a>
+                </li>
+                <li class="container__cart">
+                    <img src="Buy.png" alt="">
+                    <span class="badge">1</span>
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="" class="nav-link active">Home</a>
+                </li>
+                <li>
+                    <a href="" class="nav-link">Produtos </a>
+                </li>
+                <li>
+                    <a href="" class="nav-link">Categorias</a>
+                </li>
+                <li>
+                    <a href="" class="nav-link">Meus pedidos</a>
+                </li>
+                <li class="d-flex hidden">
+                    <a href="" class="nav-link link-cadastre-se">Cadastre-se</a>
+                    <a href="" class="nav-link link-btn">entrar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="banners">
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="banner-1">
+                        <div class="banner__container--text">
+                            <p class="title__oferta">Melhores ofertas personalizadas</p>
+                            <h2 class="banner__title">Queima de <br>estoque Nike</h2>
+                            <p>
+                                Venha conhecer nossas melhores promoções no dia a dia. Saíba o que temos em preço baixo.
+                            </p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                        <div class="banner__container--image">
+                            <img src="https://cdn.pixabay.com/photo/2014/05/18/11/26/shoes-346986_1280.jpg"
+                                alt="banner inicial" class="banner__image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner-1">
+                        <div class="banner__container--text">
+                            <p class="title__oferta">Modelos únicos</p>
+
+                            <h2 class="banner__title">Tênis exclusivo</h2>
+                            <p>
+                                Venha conhecer nossas melhores promoções no dia a dia. Saíba o que temos em preço baixo.
+                            </p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                        <div class="banner__container--image">
+                            <img src="https://cdn.pixabay.com/photo/2015/07/05/23/05/shoes-832864_1280.jpg"
+                                alt="banner inicial 2" class="banner__image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner-1">
+                        <div class="banner__container--text">
+                            <p class="title__oferta">Para os mais exigentes</p>
+
+                            <h2 class="banner__title">Tênis premium</h2>
+                            <p>
+                                Venha conhecer nossas melhores promoções no dia a dia. Saíba o que temos em preço baixo.
+                            </p>
+                            <button class="btn">Saiba mais</button>
+                        </div>
+                        <div class="banner__container--image">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/18/22/29/footwear-1837170_1280.jpg"
+                                alt="banner inicial 2" class="banner__image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+
+        </div>
+
+    </section>
+
+
+    <section id="colettion-realce">
+        <div class="colletion__container">
+            <h2 class="colletion__title">
+                Coleções em destaque
+            </h2>
+
+            <div class="colletion__card">
+                <span class="label__off">
+                    30% off
+                </span>
+
+                <h3 class="card__title">
+                    Novo drop Supreme
+                </h3>
+
+                <button class="btn--buy">
+                    Comprar
+                </button>
+
+                <img src="colletion__camisa.png" alt="Camisa da coleção" class="colletion__image">
+
+            </div>
+
+            <div class="colletion__card">
+                <span class="label__off">
+                    30% off
+                </span>
+
+                <h3 class="card__title">
+                    Coleção adidas
+                </h3>
+
+                <button class="btn--buy">
+                    Comprar
+                </button>
+
+                <img src="colletion--sapato.png" alt="Sapato da coleção" class="colletion__image">
+
+            </div>
+
+            <div class="colletion__card">
+                <span class="label__off">
+                    30% off
+                </span>
+
+                <h3 class="card__title">
+                    Novo Beats Bass
+                </h3>
+
+                <button class="btn--buy">
+                    Comprar
+                </button>
+
+                <img src="collettion__phone.png" alt="Fone da coleção" class="colletion__image">
+
+            </div>
+        </div>
+
+        <h4 class="title__destaque">Coleções em destaque</h4>
+
+        <div class="colletion__container--icones">
+
+            <div class="colletion__card--hidden">
+                <div class="colletion__icone">
+                    <span class="camisas global__icones"></span>
+                </div>
+                <h5>Camisetas</h5>
+            </div>
+
+            <div class="colletion__card--hidden">
+                <div class="colletion__icone">
+                    <span class="calcas global__icones"></span>
+                </div>
+                <h5>Calças</h5>
+            </div>
+
+            <div class="colletion__card--hidden">
+                <div class="colletion__icone">
+
+                    <span class="bones global__icones icone__bone--large"></span>
+                </div>
+                <h5>Bonés</h5>
+            </div>
+
+            <div class="colletion__card--hidden">
+                <div class="colletion__icone">
+
+                    <span class="fones global__icones"></span>
+
+                </div>
+                <h5>Fones</h5>
+            </div>
+
+            <div class="colletion__card--hidden">
+                <div class="colletion__icone">
+                    <span class="tenis global__icones"></span>
+                </div>
+                <h5>Tênis</h5>
+            </div>
+        </div>
+
+
+        <div class="products-top">
+            <div class="d-flex-products-title">
+                <h4>Produtos em alta</h4>
+                <div class="d-flex">
+                    <a href="" class="products__link-mais">
+                        Ver todos
+                    </a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-grid-produtos">
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis1-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Casual</h5>
+                <h5>Um tênis confortável para o dia a dia.</h5>
+                <h5>R$ 199,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis2-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Esportivo</h5>
+                <h5>Ideal para suas atividades físicas.</h5>
+                <h5>R$ 249,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis4-galeria-Photoroom-Photoroom.png" alt="" class="image__card--products small">
+                </div>
+                <h5 class="pt-15">Tênis de Corrida</h5>
+                <h5>Leve e respirável para longas distâncias.</h5>
+                <h5>R$ 299,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis3-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Fashion</h5>
+                <h5>Estilo e conforto para qualquer ocasião.</h5>
+                <h5>R$ 179,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis4-galeria-Photoroom-Photoroom.png" alt="" class="image__card--products small">
+                </div>
+                <h5 class="pt-15">Tênis de Caminhada</h5>
+                <h5>Perfeito para longas caminhadas e passeios.</h5>
+                <h5>R$ 220,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis1-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Casual</h5>
+                <h5>Um tênis confortável para o dia a dia.</h5>
+                <h5>R$ 199,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis2-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Esportivo</h5>
+                <h5>Ideal para suas atividades físicas.</h5>
+                <h5>R$ 249,00</h5>
+            </div>
+            
+            <div class="card__produtos">
+                <div class="card__produtos--body">
+                    <img src="assets/tenis3-galeria-Photoroom.png" alt="" class="image__card--products">
+                </div>
+                <h5 class="pt-15">Tênis Fashion</h5>
+                <h5>Estilo e conforto para qualquer ocasião.</h5>
+                <h5>R$ 179,00</h5>
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="menu.js"></script>
+    <script src="carossel.js"></script>
+</body>
+
+</html>
